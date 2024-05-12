@@ -6,12 +6,13 @@ It essentially compares the element that you are searching for with every elemen
 in the array. It keeps comparing until it finds the required element, or till it
 reaches the end of the array, to conclude that the element does not exist.
 
-Brute-Force Searching
+### Brute-Force Searching
+
 Brute-force searching is also known as exhaustive searching, and it simply means to check
 all possible configurations for a given problem. It is easy to implement and would most
 definitely find the solution, although it consumes a lot of time.
 
-Example:
+### Example
 
 If you have a problem set in a countable space (chess moves are countable, passwords are
 countable, continuous stuff is uncountable), then the brute force approach will explore this 
@@ -65,7 +66,7 @@ first time in reverse order.
 
 Take the size of the array as an input from the user. \
 The elements of the array as an input from the user. \
-The key you are searching for, as an input from the user. \
+The key you are searching for, as an input from the user.
 
 Sample Input: \
 7 \
