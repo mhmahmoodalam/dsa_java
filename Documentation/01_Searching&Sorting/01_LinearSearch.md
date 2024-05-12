@@ -22,6 +22,7 @@ important because it means that if you have knowledge of your problem (you know 
 unlikely to be a solution, for example, sacrificing your queen), then you can do much 
 better than applying brute force.
 
+``` flow
 Start
 |
 |__Input the array of elements and the element to search for
@@ -41,7 +42,7 @@ Start
 |   |__ Return "Element not found"
 |
 End
-
+```
 
 For more details, please visit the link given below:
 
