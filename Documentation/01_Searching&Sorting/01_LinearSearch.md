@@ -8,20 +8,11 @@ reaches the end of the array, to conclude that the element does not exist.
 
 ### Brute-Force Searching
 
-Brute-force searching is also known as exhaustive searching, and it simply means to check
-all possible configurations for a given problem. It is easy to implement and would most
-definitely find the solution, although it consumes a lot of time.
+Brute-force searching is also known as exhaustive searching, and it simply means to check all possible configurations for a given problem. It is easy to implement and would most definitely find the solution, although it consumes a lot of time.
 
 ### Example
 
-If you have a problem set in a countable space (chess moves are countable, passwords are
-countable, continuous stuff is uncountable), then the brute force approach will explore this 
-space considering all solutions equally. In the chess example, if you want to checkmate your 
-opponent, then this is done through a series of moves, which are countable. Brute force will 
-go through all the sequences of moves, however unlikely they may be. The word unlikely is 
-important because it means that if you have knowledge of your problem (you know what is 
-unlikely to be a solution, for example, sacrificing your queen), then you can do much 
-better than applying brute force.
+If you have a problem set in a countable space (chess moves are countable, passwords are countable, continuous stuff is uncountable), then the brute force approach will explore this space considering all solutions equally. In the chess example, if you want to checkmate your opponent, then this is done through a series of moves, which are countable. Brute force will go through all the sequences of moves, however unlikely they may be. The word unlikely is important because it means that if you have knowledge of your problem (you know what is unlikely to be a solution, for example, sacrificing your queen), then you can do much better than applying brute force.
 
 ``` flow
 Start
