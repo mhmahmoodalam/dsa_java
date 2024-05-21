@@ -16,12 +16,11 @@ Additional Reading Links for Hashtable and HashMap in Java API are provided belo
 
 [Open Addressing in Hashing](https://www.geeksforgeeks.org/hashing-set-3-open-addressing/)
 
-
 ## Notes
 
 - hash table is mainly used to achieve a constant run-time complexity O(1).
 - it must compute fast because a time-expensive hash function would defeat the overall purpose of fast retrieval of a hash table
-- Cardinality is a measure of a set's size or the number of elements in a set. For example, if you are given a set A {1,3,4,3,2,5}, the cardinality of set A is 6.
+- **Cardinality** is a measure of a set's size or the number of elements in a set. For example, if you are given a set A {1,3,4,3,2,5}, the cardinality of set A is 6.
 - The chosen size of a hash table cannot be extremely small because it will result in a collision
 
 ## Collision in hash Tables
