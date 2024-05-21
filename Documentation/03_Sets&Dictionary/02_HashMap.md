@@ -1,4 +1,4 @@
-# DataStrcuture
+# HashMap
 
 ## Explanation
 

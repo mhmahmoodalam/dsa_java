@@ -1,17 +1,17 @@
-# find th ekth largest element in a stack
+# find the kth largest element in a stack
 
 Sorting refers to arranging a sequence of data systematically based on specific criteria. One of the benefits of sorting is that it makes selection easier. For example, if you need to find the kth largest element in a list of numbers, then you can reach that element in constant time if the list is arranged in either descending or ascending order. Stacks and queues are two data structures that are used frequently for storing data. Hence, you will encounter situations where you need to sort elements using these data structures. 
 
 The algorithm to sort the elements of a stack using another stack data structure has O(n^2) time and O(n) space complexity
 
-## Pseducode
+## Pseudocode
 
 - create a new stack; call it temp;
 - while input stack is not empty
     - pop top value from input stack & store it in variable 'value'
     - while 'temp stack is not empty and value < top of the temp stack
         - pop top value from temp stack & push it to the input stack
-    - push the valu eto temp stack
+    - push the value to temp stack
 - return temp stack containing all elements in descending sorted order
 
 ``` java
