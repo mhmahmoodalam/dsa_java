@@ -66,6 +66,15 @@ To visualize stacks, you can visit the links given below:
 
 - each operation takes constant time complexity o(1)
 
+### Use Cases of Stack
+
+Stacks are commonly used in various applications such as:
+
+- **Expression Evaluation**: Used in parsing expressions and evaluating them.
+- **Backtracking Algorithms**: Used in algorithms that involve backtracking like solving mazes, puzzles, etc.
+- **Function Call Management**: Call stacks are used in programming languages to manage function calls and returns.
+- **Undo Mechanism**: Used in applications to implement undo features.
+
 ## Problem Statement
 
 Reverse a string
