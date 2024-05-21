@@ -161,10 +161,12 @@ Write a code that sorts an array in decreasing order using Merge Sort algorithm.
 Note that the array in the question which needs to be sorted is named as "randomNumbers". You need to sort the numbers inside the "randomNumbers" array and store the sorted array inside the "sortedNumbers" array.
 
 Input:
-         1. The first input is 'n', that is, the number of elements in the array.
-         2. In the next line, n elements of the array space-separated.
+
+- The first input is 'n', that is, the number of elements in the array.
+- In the next line, n elements of the array space-separated.
 
 Output:
+
 The array sorted in decreasing order.
 
 ### The code should
@@ -184,10 +186,11 @@ The first input is n (number of elements in the array), here it is 8. The next l
 Sample Test Case-2 \
 Sample Input-1: \
 4 \
-1 4 19 3 \
+1 4 19 3 
 
 Sample Output-1 \
-[19,4,3,1] \
+[19,4,3,1]
+
 The first input is n (number of elements in the array), here it is 4. The next line in the input represents the elements of the array (space-separated). The output is the same array arranged in decreasing order.
 
 ### Solution

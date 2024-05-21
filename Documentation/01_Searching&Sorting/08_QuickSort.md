@@ -2,14 +2,7 @@
 
 ## Explanation
 
-It is another example of divide and conquer. \
-We first identify a pivot and move all elemnts less\
-than pivot to left side and all elemnts gretaher than \
-pivot to write side. Then we recursively do the same quick \
-sort on the left and right sub array \
-
-The changes are made on exiting array. No new array \
-is used
+It is another example of divide and conquer. We first identify a pivot and move all elemnts less than pivot to left side and all elemnts gretaher than pivot to write side. Then we recursively do the same quick sort on the left and right sub array. The changes are made on exiting array. No new array is used
 
 ```flow
 
@@ -45,8 +38,7 @@ End
 - Best case = n log n
 - Average Case = nlogn
 - Worst Case = n^2
-
-- To prevent the Worst case we can choose random pivot\
+- To prevent the Worst case we can choose random pivot
 
 Read more here\
 https://www.geeksforgeeks.org/quicksort-using-random-pivoting/
@@ -91,9 +83,9 @@ T(n) = T(n-1) + n \
 T(n) = T(n-n) + n * n - n \
      = n^2
 
-Best case:\
-the best case would be when the pivot can break the array into\
-exactly half arrays.
+Best case:
+
+the best case would be when the pivot can break the array into exactly half arrays.
 
 T(n) = T(n-1) + n \
      = [ T(n/2) + T(n/2) ] + n     =  2^T(n/2) + n \
@@ -109,10 +101,7 @@ Quick Sort
 
 ### Description
 
-Write a program in Java that takes an array of strings as input \
- and returns the sorted array. Assume that the sorting needs to \
- be done based on the size of each string. So, a string with fewer \ characters should come before another string with more number of \
- characters. Use the quicksort algorithm for the program.
+Write a program in Java that takes an array of strings as input  and returns the sorted array. Assume that the sorting needs to  be done based on the size of each string. So, a string with fewer  characters should come before another string with more number of characters. Use the quicksort algorithm for the program.
 
 ### The code should
 
@@ -125,7 +114,7 @@ Marline \
 Marcelluss \
 Michelle \
 Quiana \
-Keny \
+Keny 
 
 Sample Output - 1: \
 Keny \
@@ -134,24 +123,21 @@ Quiana \
 Marline \
 Michelle \
 Christene \
-Marcelluss \
+Marcelluss 
 
 So, the first input is the number of elements in the array. \
-In this case, the number of elements is 7. Next 7 inputs are \
- the elements inside the array. As you can see in the output, \
-  the names are sorted as per their length. The name with fewer \
-   characters comes before the names with more characters.
+In this case, the number of elements is 7. Next 7 inputs are  the elements inside the array. As you can see in the output,   the names are sorted as per their length. The name with fewer characters comes before the names with more characters.
 
 Sample Input - 1:
 3 \
 Cat \
 Tree \
-Bag \
+Bag 
 
 Sample Output - 2:
 Cat \
 Bag \
-Tree \
+Tree 
 
 So, the first input is the number of elements in the array. In this case, the number of elements is 3. Next 3 inputs are the elements inside the array. As you can see in the output, the names are sorted as per their length. 
 

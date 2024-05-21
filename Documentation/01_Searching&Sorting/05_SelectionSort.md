@@ -44,21 +44,6 @@ End
 
 ## Analysis
 
-Selection sort also has a time complexity of O(N2). \
-Remember, you learnt that it performs fewer swaps than \
-Bubble sort. So, ideally, it should run a bit more \
-efficiently than Bubble sort. 
-
-## Problem Statement
-
-### Description
-
-### The code should
-
-### Solution
-
-```java
-
-
-
-```
+- Selection sort also has a time complexity of O(N2).
+- It performs fewer swaps than Bubble sort.
+- So, ideally, it should run a bit more efficiently than Bubble sort.

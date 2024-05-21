@@ -1,4 +1,4 @@
-## Stable vs Unstable Algorthm
+# Stable vs Unstable Algorithm
 
 - does not disturb the order of matching value
 - example \

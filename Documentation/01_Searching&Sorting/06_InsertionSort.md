@@ -2,15 +2,7 @@
 
 ## Explanation
 
-you compare an element with the element to its left. \
-If the element to its left is greater, then you should \
-shift the greater element to the right by one position \
-and the smaller one to the left. In the next iteration, \
-you need to compare this smaller element with the one to \
-its left, and shift it if the element to the left is \
-greater. You stop when you find that the element to the \
-left is smaller than the element with which you are \
-comparing it.
+We compare an element with the element to its left. If the element to its left is greater, then you should shift the greater element to the right by one position and the smaller one to the left. In the next iteration, you need to compare this smaller element with the one to its left, and shift it if the element to the left is greater. You stop when you find that the element to the left is smaller than the element with which you are comparing it.
 
 ```flow
 
@@ -46,7 +38,6 @@ End
 - Works well for mostly sorted array
 - for reverse sorting selection sort work better
 - for average case both selection or insertion has same efficiency
-
 
 ## Analysis
 
