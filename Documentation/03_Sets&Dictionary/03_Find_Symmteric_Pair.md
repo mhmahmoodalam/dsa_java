@@ -19,11 +19,8 @@ Note: ‘arr’ is the array of pairs
         int secondC   = arr[i][1];
         for(int j = i+1; j < arr.length; j++) // Check whether the pairs are symmetric to the current pairs or not
             int secondO = arr[j][1];
-
             int firstO = arr[j][0];
-
             if(firstO == sec && secondO == first) //If the current pair is symmetric to the other pair, then print the current  pair
-
                 Print the current pair
 
 ```
@@ -32,38 +29,41 @@ Note: ‘arr’ is the array of pairs
 
 Suppose you are given an array of pairs, and you have to print all the symmetric pairs. Pair (a, b) and pair (c, d) are called symmetric pairs if a is equal to d and b is equal to c.
 
-Input: The input will be in the following format:
-    - The first line will be ‘n’, indicating the size of the input array, i.e., the number of pairs in the array.
-    - The next ‘n’ lines indicate the ‘n’ pairs.
-    - Each line will be includes two space-separated integers, indicating the first and the second element of the pair.
+The input will be in the following format:
 
-Output: The output should be in the following format:
-    - Print all the first pairs of the symmetric pairs, each in a new line.
-    - Every line should be two space-separated integers, indicating a symmetric pair.
+- The first line will be ‘n’, indicating the size of the input array, i.e., the number of pairs in the array.
+- The next ‘n’ lines indicate the ‘n’ pairs.
+- Each line will be includes two space-separated integers, indicating the first and the second element of the pair.
+
+The output should be in the following format:
+
+- Print all the first pairs of the symmetric pairs, each in a new line.
+- Every line should be two space-separated integers, indicating a symmetric pair.
 
 Note:
-    - If a pair is symmetric, then print the pair that appears first in the array.
-    - If there are no symmetric pairs, then print ‘No Symmetric pair’.
-    - If the array is empty, then consider that there are no symmetric pairs in the array.
 
-Sample input-1:
-4
-1 2
-3 4
-2 1
+- If a pair is symmetric, then print the pair that appears first in the array.
+- If there are no symmetric pairs, then print ‘No Symmetric pair’.
+- If the array is empty, then consider that there are no symmetric pairs in the array.
+
+Sample input-1: \
+4 \
+1 2 \
+3 4 \
+2 1 \
 4 3
 
-Sample output-1:
-1 2
+Sample output-1: \
+1 2 \
+3 4 \
+
+Sample input-1: \
+3 \
+1 2 \
+2 3 \
 3 4
 
-Sample input-1:
-3
-1 2
-2 3
-3 4
-
-Sample output-1:
+Sample output-1: \
 No Symmetric pair
 
 ### Solution
@@ -105,4 +105,3 @@ class Source {
 }
 
 ```
-

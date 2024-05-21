@@ -11,7 +11,9 @@ Java provides two APIs for implementing hash tables, which are Hashtable and Has
 Additional Reading Links for Hashtable and HashMap in Java API are provided below:
 
 [Hashtable in Java](https://www.geeksforgeeks.org/java-util-hashtable-class-java/)
+
 [HashMap in Java](https://www.geeksforgeeks.org/java-util-hashmap-in-java/)
+
 [Open Addressing in Hashing](https://www.geeksforgeeks.org/hashing-set-3-open-addressing/)
 
 
