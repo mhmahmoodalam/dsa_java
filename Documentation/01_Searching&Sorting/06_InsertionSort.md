@@ -41,11 +41,9 @@ End
 
 ## Analysis
 
-Time complexity is n*n
+Time complexity is $n^2$
 
-## Problem Statement
-
-Insertion Sort Code
+## Problem Insertion Sort Code
 
 ### Description
 
@@ -54,17 +52,18 @@ The program will take the size of the array and the elements of the array as inp
 
 ### The code should
 
-Sample Input:
-4
-1
-2
-3
-4
-Sample Output:
-4
-3
-2
-1
+Sample Input: \
+4 \
+1 \
+2 \
+3 \
+4 \
+
+Sample Output: \
+4 \
+3 \
+2 \
+1 \
 
 Here, input value ‘4’ (the first input) corresponds to the array size, and the rest of the numbers correspond to the elements of the array.
 

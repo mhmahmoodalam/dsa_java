@@ -2,16 +2,17 @@
 
 ## Explanation
 
-You started with the first two numbers in each \
-iteration and performed a comparison between them. \
-When the numbers were not in order, you swapped them. \
-You repeated the same steps for the second and third \ 
+You start with the first two numbers in each \
+iteration and perform a comparison between them. \
+When the numbers were not in order, you swap them. \
+You repeat the same steps for the second and third \ 
 numbers, and so on. At the end of the first iteration, \
-the largest number was pushed to the end of the array; \
+the largest number is pushed to the end of the array; \
 at the end of the second iteration, the second largest \
-number was pushed to the second last position, and so on. \
-In the next video, you will learn how to write the \
-pseudocode for the Bubble sort algorithm.
+number is pushed to the second last position, and so on. \
+
+![alt text](image.png)
+
 
 ```flow
 Start
@@ -42,25 +43,23 @@ End
 
 ## Analysis
 
-Bubble sort has a time complexity of O(N2), where N is \ 
+Bubble sort has a time complexity of $O(N^2)$, where N is \
 the number of elements in the array. In the first iteration,\
 it performs N-1 comparisons; in the second iteration, N-2 \
 comparisons; in the third, N-3 comparisons. This continues \
 for a total of N iterations. So, the total number of \
-comparisons \effectively become the sum of the first \
+comparisons effectively become the sum of the first \
 N-1 natural numbers.
 
-total comparisons\
+total comparisons \
 n-1 -> n-2 -> n-3 -> n-4 ......
 
-T(n) = 1 + 2 + ...... + n-1
-     = n(n+1)/2
-     = (n-1) * n /2
+T(n) = 1 + 2 + ...... + n-1 \
+     = n(n+1)/2 \
+     = (n-1) * n /2 \
      = O(n*n)
 
-## Problem Statement
-
-Prints the number of swaps\
+## Problem - Prints the number of swaps
 
 ### Description
 
@@ -91,14 +90,14 @@ Sample Input: \
 1 \
 2 \
 3 \
-4 \
+4
 
 Sample Output: \
-5 \
+5
 
 In this input, the first two numbers denote the values for M \
-and  the size of the array, respectively. And rest of \ 
-the numbers denote the elements inside the array. 
+and  the size of the array, respectively. And rest of \
+the numbers denote the elements inside the array.
 
 ### Solution
 

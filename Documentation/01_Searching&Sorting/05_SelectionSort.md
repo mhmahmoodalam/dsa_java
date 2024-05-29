@@ -4,12 +4,11 @@
 
 Selection sort also, at the end of each iteration, pushes the \
 next highest number to the end. However, this time, it was done \
-with fewer swaps. You just picked the highest number in each \
+with fewer swaps. You just pick the highest number in each \
 iteration and swapped it with the last, unsorted number. So, \
 each iteration in the worst case needs only one swap. This is \
 unlike Bubble sort where you have to compare and swap every two \
-numbers every time they are out of order. In the next video, we \
-will look at the pseudocode of Selection sort.
+numbers every time they are out of order.
 
 ```flow
 Start

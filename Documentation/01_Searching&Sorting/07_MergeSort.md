@@ -1,6 +1,6 @@
 # Merge Sort Algorithm
 
-So far the Bubble sort , Insertion Sort and Selection sort were sorting in n*n time complexity
+So far the Bubble sort , Insertion Sort and Selection sort were sorting in $n^2$ time complexity
 
 Merge sort takes nlogn time.
 
@@ -150,9 +150,7 @@ Some relief, isn't it? Merge sort finally brings us out of O(N^2). The efficienc
 
 ```
 
-## Problem Statement
-
-Merge Sort in Decreasing Order
+## Problem - Merge Sort in Decreasing Order
 
 ### Description
 
@@ -173,20 +171,19 @@ The array sorted in decreasing order.
 
 Sample Test Case-1
 
-Sample Input-1:
+Sample Input-1: \
 8 \
-9 45 76 23 47 1 5 11 \
+9 45 76 23 47 1 5 11
 
 Sample Output-1 \
-[76,47,45,23,11,9,5,1] \
+[76,47,45,23,11,9,5,1]
 
 The first input is n (number of elements in the array), here it is 8. The next line in the input represents the elements of the array (space-separated). The output is the same array arranged in decreasing order.
-
 
 Sample Test Case-2 \
 Sample Input-1: \
 4 \
-1 4 19 3 
+1 4 19 3
 
 Sample Output-1 \
 [19,4,3,1]

@@ -1,4 +1,4 @@
-# Linear Search Algorithm
+# Binary Search Algorithm
 
 ## Explanation
 
@@ -57,17 +57,14 @@ End
 - The array must be sorted for binary search to work
 - In the binary search algorithm, after every search operation, the search gets reduced by  1/2
 - Alway suse mid = (start+(end-start)/2) for mid calculation
-- If array is sorted liner search is more optimal than binary
+- If array is unsorted linear search is more optimal than binary
 
 ## Linear Search vs Binary Search
 
-Suppose you have an unsorted array, and you are told to search for a particular element in it. \
-Choose whether the following statement is True or False:\
-Since you know that binary search is more efficient than linear search, and since binary search can be applied only on a sorted array, the most efficient way to approach this task is to first sort the array and then apply binary search.
+Suppose you have an unsorted array, and you are told to search for a particular element in it. Since you know that binary search is more efficient than linear search, and since binary search can be applied only on a sorted array, the most efficient way to approach this task is to first sort the array and then apply binary search.
 
-Answer\
 In such a case, we should calculate the efficiency of the entire process. Sorting an unsorted \
-array is an O(nlogn) process, as you will learn in the upcoming sessions. Once sorted, applying \
+array is an O(nlogn) process(MergeSort). Once sorted, applying \
 binary search on the array is an O(logn)process. So, the entire process would take steps in the \
 order of nlogn + logn, which is more than O(n) as taken by linear search. So, if we have an \
 unsorted array and there is no need to sort it, then using linear search is more efficient than \
@@ -75,19 +72,22 @@ using binary search.
 
 ## Analysis
 
-T(n) = T(n/2) + O(1)\
-Using maesters thoeram , time complexity = O(logn)\
-Best case = O(1)\
-Avg/Worstcase = O(log(n))\
+The Master Theorem is a tool used to solve recurrence relations that arise in the analysis of divide-and-conquer algorithms. The Master Theorem provides a systematic way of solving recurrence relations of the form:
 
-## Problem Statement
+T(n) = aT(n/b) + f(n)
 
-Number of Unsuccessful Attempts\
+where a, b, and f(n) are positive functions and n is the size of the problem. The Master Theorem provides conditions for the solution of the recurrence to be in the form of O(n^k) for some constant k, and it gives a formula for determining the value of k.
+
+T(n) = T(n/2) + O(1) \
+Using maesters thoeram , time complexity = O(logn) \
+Best case = O(1) \
+Avg/Worstcase = O(log(n))
+
+## Problem - Number of Unsuccessful Attempts
 
 ### Description
 
-Write a code that returns the number of unsuccessful attempts made to search for an element in \
-the array using Binary search.
+Write a code that returns the number of unsuccessful attempts made to search for an element in the array using Binary search.
 
 ### The code should
 
